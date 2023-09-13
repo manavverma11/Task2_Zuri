@@ -1,0 +1,359 @@
+/* 2xl */
+@media (max-width: 1536px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.3);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 0 45px 45px 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        /* flex: 0.1; */
+        align-items: center;
+        justify-content: center;
+        gap: 13px;
+        position: fixed;
+        z-index: 999;
+    }
+
+    .backup {
+        background-color: rgba(255, 255, 255, 0.3);
+        /* border: 1px solid rgba(0, 0, 0, 0.3); */
+        border-radius: 0 45px 45px 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex: 0.2;
+        align-items: center;
+        justify-content: center;
+        gap: 13px;
+
+    }
+
+    .logo{
+        width: 120px;
+        margin-top: 10px;
+    }
+    
+    .links-container {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .links-container p {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: left;
+        font-size: 14px;
+        font-weight: 600;
+        color: #666666;
+        padding: 15px 30px 15px 20px;
+        cursor: pointer;
+    }
+
+    .links-container p:hover {
+        background-color: rgba(190, 18, 60, 0.1);
+    }
+
+    .links-container img {
+        width: 23px;
+    }
+    
+    .event-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        background-color: rgba(248, 231, 235, 0.4);
+        border: 1px solid rgba(190, 18, 60, 0.7);
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 30px 15px 15px 15px;
+        color: #666666;
+    }
+    
+    .event-container h4 {
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    .event-container p {
+        font-size: 9px;
+        font-weight: 500;
+    }
+    
+    .event-container button {
+        border: none;
+        background-color: rgba(190, 18, 60, 0.2);
+        color: #BE123C;
+        border-radius: 30px;
+        padding: 8px 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 9px;
+        cursor: pointer;
+    }
+    
+    .logout-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        color: #666666;
+        gap: px;
+        cursor: pointer;
+    }
+    
+    .logout-container p {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .logout-container img {
+        width: 30px;
+    }
+    
+    .active {
+        background-color: rgba(190, 18, 60, 0.1);
+        border-right: 6px solid #BE123C;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .sidebar{
+        gap: 5px;
+    }
+
+        .links-container p {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: left;
+            font-size: 14px;
+            font-weight: 600;
+            color: #666666;
+            padding: 15px 30px 15px 20px;
+            cursor: pointer;
+        }
+
+    .logo{
+        width: 120px;
+        margin-top: -20px;
+    }
+
+    .logout-container{
+        margin-top: 30px;
+    }
+
+    .logout-container img {
+        width: 25px;
+    }
+    
+    .logout-container p {
+        font-size: 14px;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .sidebar{
+        gap: 5px;
+        width: 170px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+    
+    .links-container p {
+        font-size: 12px;
+        /* padding: 15px 0 15px 18px; */
+    }
+
+    .links-container img {
+        width: 18px;
+    }
+
+    .event-container {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .event-container button {
+        font-size: 9px;
+    }
+
+    .event-container h4 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .event-container p {
+        font-size: 10px;
+    }
+
+    .logout-container {
+        gap: 5px;
+    }
+    
+    .logout-container p {
+        font-size: 14px;
+    }
+
+    .logout-container img {
+        width: 25px;
+    }
+    
+}
+
+/* md */
+@media (max-width: 890px) {
+    .sidebar{
+        /* padding: 10px 0 10px 0; */
+        gap: 10px;
+        width: 130px;
+    }
+}
+
+
+
+/* md */
+@media (max-width: 768px) {
+    .sidebar{
+        /* padding: 10px 0 10px 0; */
+        gap: 10px;
+        width: 120px;
+    }
+
+    .logout-container p {
+        font-size: 12px;
+    }
+}
+
+/* sm */
+@media (max-width: 655px) {
+    .sidebar{
+        /* padding: 10px 0 10px 0; */
+        gap: 10px;
+        width: 113px;
+    }
+
+    .links-container p {
+        font-size: 10px;
+    }
+
+    .links-container img {
+        width: 18px;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    .logout-container {
+        margin-top: 0;
+    }
+
+}
+
+
+
+/* sm */
+@media (max-width: 640px) {
+    .sidebar{
+        padding: 10px 0 10px 0;
+        gap: 23px;
+        width: 105px;
+    }
+
+    .logo{
+        width: 90px;
+    }
+    
+    .links-container p {
+        font-size: 10px;
+        padding: 15px 10px 15px 20px;
+    }
+
+    .links-container img {
+        width: 15px;
+    }
+
+    .event-container {
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .event-container button {
+        font-size: 8px;
+    }
+
+    .event-container h4 {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .event-container p {
+        font-size: 9px;
+    }
+
+    .logout-container {
+        gap: 5px;
+    }
+    
+    .logout-container p {
+        font-size: 12px;
+    }
+
+    .logout-container img {
+        width: 21px;
+    }
+
+    
+}
+
+/* xs */
+@media (max-width: 420px) {
+.backup {
+    flex: 1.5;
+    margin-left: 90px;
+}
+
+.sidebar{
+    padding: 10px 0 10px 0;
+    gap: 20px;
+    width: 90px;
+}
+
+.logo {
+    width: 80px;
+}
+
+
+.links-container p {
+    font-size: 9px;
+    padding: 15px 10px 15px 12px;
+    margin: 5px 0px;
+}
+
+.event-container h4 {
+    font-size: 8px;
+}
+
+.event-container p {
+    font-size: 6px;
+}
+
+.logout-container {
+margin-top: -2px;}
+
+.logout-container p{
+font-size: 10px;}
+
+}
