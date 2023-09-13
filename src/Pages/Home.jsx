@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import axios from 'axios';
 import '../styles/Home.css'
 
-const API_KEY = "36cdee315ca2ee3231ca252814317c61";
+const API_KEY = "b5de50892de4d9a3079da13d6324375c";
 const Home = () => {
 
   const [topMovies, setTopMovies] = useState([]);
