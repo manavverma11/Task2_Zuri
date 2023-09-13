@@ -4,14 +4,14 @@
 
 The Movie Discovery Web Application is a web-based platform for discovering information about movies. It allows users to search for movies, view their release dates and the runtime of movies.
 
-## [Demo Link](https://hngtask2jagmeet.netlify.app/)
+## [Demo Link](https://hngtask2manav.netlify.app/)
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-https://github.com/jagmeetkaur03/Task2_Zuri.git
+https://github.com/manavverma11/Task2_Zuri.git
 ```
 
 2. Install dependencies:
