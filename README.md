@@ -1,37 +1,17 @@
-```markdown
 # Movie Discovery Web Application
-
-## Table of Contents
-
-- [About](#about)
-- [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API](#api)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About
 
 The Movie Discovery Web Application is a web-based platform for discovering information about movies. It allows users to search for movies, view their release dates and the runtime of movies.
 
-## Features
-
-- Search for movies by title.
-- View detailed information about a specific movie.
-- Responsive design for both desktop and mobile devices.
-
-## Demo
-
-[Link to Demo](https://hn-gx-stage-two-task.vercel.app/)
+## [Demo Link](https://hngtask2jagmeet.netlify.app/)
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/miss3persin/HNGx-Stage-Two-Task.git
+https://github.com/jagmeetkaur03/Task2_Zuri.git
 ```
 
 2. Install dependencies:
@@ -39,6 +19,12 @@ git clone https://github.com/miss3persin/HNGx-Stage-Two-Task.git
 ```bash
 cd HNGx-Stage-Two-Task
 npm install
+axios
+react
+react-dom
+react-router-dom
+react-slick
+slick-carousel
 ```
 
 ## Usage
@@ -54,12 +40,3 @@ npm start
 ## API
 
 This application uses the [TMDB API](https://www.themoviedb.org/documentation/api) for fetching movie data.
-
-## Contributing
-
-If you'd like to contribute, please fork the repository and create a new branch. Pull requests are welcome!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
